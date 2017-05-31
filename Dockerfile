@@ -1,4 +1,5 @@
-FROM jenkins:2.32.3
+FROM jenkinsci/jenkins:lts
+#FROM jenkins:2.46.2
 
 # copy custom built plugins
 COPY plugins/*.hpi /usr/share/jenkins/ref/plugins/
