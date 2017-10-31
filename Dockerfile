@@ -1,4 +1,4 @@
-FROM jenkinsci/jenkins:lts
+FROM jenkins/jenkins:2.86
 #FROM jenkins:2.46.2
 
 # copy custom built plugins
